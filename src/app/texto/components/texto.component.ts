@@ -2,15 +2,15 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-texto',
-  standalone: true,
-  imports: [],
-  templateUrl: './texto.component.html'
+  templateUrl: './texto.component.html',
+  styleUrl: './texto.component.css'
 })
 
-export class MensajeComponent {
+export class textoComponent {
 mensaje: string = '¡Hola Goku!';
 
 cambiarMensaje(){
   this.mensaje = 'La funcion se ejecuto, ¡Se cambio el mensaje!'
 }
+
 }
